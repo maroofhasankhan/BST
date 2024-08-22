@@ -9,6 +9,9 @@ class TreeNode{
     TreeNode(int data,TreeNode *left,TreeNode *right) : data(data), left(left), right(right) {};
 };
 
+
+
+//
 inOrder(TreeNode *root){
     if(root){
         inOrder(root->left);
